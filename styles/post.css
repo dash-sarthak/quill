@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+    color: #373737;
+}
+
+
+/* Body and Background */
+
+body {
+    background-color: #EDEDED;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    width: 100%;
+    box-shadow: 0 8px 24px -2px rgba(0, 0, 0, .2);
+    background-color: #EDEDED;
+    /* padding: 0.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.left_nav,
+.right_nav {
+    display: flex;
+    align-items: center;
+}
+
+.left_nav * {
+    margin: 0.5rem 1rem;
+}
+
+.left_nav>img {
+    width: 1.7rem;
+}
+
+.right_nav * {
+    margin: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.right_nav>button {
+    font-family: 'Scheherazade New';
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #EDEDED;
+    background-color: #373737;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+}
+
+
+/* Content */
+
+.date {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.posts {
+    align-items: center;
+    margin: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_preview {
+    /* max-width: 54rem; */
+    /* background-color: #E3E3E3; */
+    padding: 2rem 4rem;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    border-radius: 1.2rem;
+}
+
+p {
+    max-width: 30rem;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
